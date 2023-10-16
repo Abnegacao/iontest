@@ -18,7 +18,7 @@ export const environment = {
   dbDefaultImage: 'assets/generic.png',
 
   // Formatos de imagens permitidas.
-  dpImageFormats: ['gif', 'jpg', 'jpeg', 'png', 'bmp', 'tiff', 'tif'],
+  dbImageFormats: ['gif', 'jpg', 'jpeg', 'png', 'bmp', 'tiff', 'tif'],
 
   // Altere estas chaves conforme seu próprio projeto no Firebase.com.
   firebase: {
