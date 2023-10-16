@@ -83,7 +83,11 @@ const routes: Routes = [
     path: '**',
     redirectTo: 'e404',
     pathMatch: 'full'
+  },  {
+    path: 'document',
+    loadChildren: () => import('./pages/document/document.module').then( m => m.DocumentPageModule)
   }
+
 
 ];
 
